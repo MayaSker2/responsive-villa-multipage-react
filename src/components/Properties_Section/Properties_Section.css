@@ -1,0 +1,28 @@
+.properties{
+    padding: 20px 0px;
+    height: max-content;
+}
+.properties h6{
+    color: #ee626b;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.properties h2{
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 20px;
+    line-height: 56px;
+}
+
+@media (max-width: 767px) {
+    .properties{
+        margin-top: 30px;
+    }
+    .properties h2 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-top: 10px;
+    }
+}

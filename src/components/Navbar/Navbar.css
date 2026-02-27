@@ -1,0 +1,104 @@
+.navbar{
+    width: 100% !important;
+    position: fixed !important;
+    padding: 10px 50px !important;
+    z-index: 4;
+    background-color: white;
+}
+.change-top{
+    top: 0 !important;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+
+}
+.navbar-brand{
+    font-size: 30px !important;
+    font-weight: 700;
+}
+.list{
+    display: flex !important;
+    gap: 20px !important;
+}
+.nav-link{
+    font-size: 20px !important;
+    font-weight: 500 !important;
+    color: rgb(41, 40, 40) !important;
+    text-wrap: nowrap;
+}
+.navbar a:hover{
+    color: rgb(255, 0, 0) !important;
+}
+.navbar-collapse {
+    flex-grow: 0 !important;
+    gap: 20px;
+    align-items: center;
+}
+.navbar-toggler {
+    padding: 3px 4px !important;
+} 
+.wrapper{
+    width: 10rem !important;
+    max-width: 100%;
+    position: relative;
+}
+.wrapper .oval{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 0.8rem 0.8rem 0.8rem 2.4rem  ;
+    width: 100%;
+  }
+.wrapper .oval:hover{
+    color:rgb(243, 85, 37); 
+    background-color: black;   
+
+}
+.wrapper .circl{
+    width: 45px;
+    padding: 10px !important;
+    background-color:rgb(243, 85, 37);    ;
+    border: 1px solid rgb(0, 0, 0);
+    color: white;
+    position: absolute;
+    right: 70%;
+    top: 2%;
+    aspect-ratio: 1;
+    border-radius: 40px;
+    font-size: 15px;
+    margin-right: 5px;
+}
+.wrapper .circl:hover{
+    color:rgb(5, 5, 5); 
+
+}
+
+@media screen and (max-width:992px) {
+    .navbar{
+        width: 100% !important;
+        padding: 8px 20px !important;
+        position: absolute !important;
+    }
+    .navbar-collapse {
+        flex-grow: 0 !important;
+        gap: 10px !important;
+        align-items: center;
+    }
+    .list{
+        gap: 3px !important;
+    }
+    .nav-link{
+        font-size: 13px !important;
+        font-weight: 500 !important;
+        color: rgb(41, 40, 40) !important;
+        text-wrap: nowrap;
+    }
+    .wrapper{
+        display: none;
+  }
+  .navbar-toggler {
+    padding: 3px 4px !important;
+    font-size: 15px !important;
+}
+}

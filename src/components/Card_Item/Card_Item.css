@@ -1,0 +1,92 @@
+.card{
+    background-color: #fafafa;
+    border-radius: 10px;
+    padding: 15px;
+    --bs-card-title-spacer-y: 0 !important;
+}
+.card:hover{
+    transform: translateY(-5px);
+}
+.card-img{
+    margin-bottom: 20px;
+}
+/* .card-body-custom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px 0 !important;
+} */
+.card .top-info{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 !important;
+}
+.card .top-info span{
+    background-color: #fbd9cf;
+    font-weight: 600;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #1e1e1e;
+}
+.card .villa-info{
+    height: 100%;
+}
+.card .villa-info a{
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+}
+.card .card_text{
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+}
+.card .card_text ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 0 0 0 0 !important;
+}
+.card .card_text ul li{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    color: #4a4a4a;
+}
+.card .card_text ul li span {
+    font-weight: 800;
+    color: #1e1e1e;
+    margin-left: 30px !important;
+}
+
+.card .button{
+    display: inline-block;
+    background-color: #1e1e1e;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 15px;
+    border-radius: 25px;
+    transition: all .3s;
+    border: navajowhite;
+    margin-top: 10px;
+}
+.card .button:hover{
+    background-color:rgb(243, 85, 37);
+
+}
+@media (max-width: 767px) {
+    .card:hover{
+        transform: translateY(0px);
+    }
+    .card{
+        margin-bottom: 10px;
+    }
+}

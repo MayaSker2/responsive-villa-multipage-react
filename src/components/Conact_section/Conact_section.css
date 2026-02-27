@@ -1,0 +1,72 @@
+.conact {
+    background-image: url("../../assets/Image/contact-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0;
+    position: relative;
+}
+
+/* overlay */
+.conact::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.55);
+}
+
+.conact .container {
+    position: relative;
+    z-index: 2;
+}
+
+/* title */
+.top_conact {
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.conact h6 {
+    color: #ee626b;
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.conact h2 {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+/* info items */
+.conact-me {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* form spacing */
+.conact .form {
+    margin-top: 20px;
+}
+
+/* responsive */
+@media (max-width: 767px) {
+
+    .conact {
+        padding: 60px 0;
+    }
+
+    .conact h2 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+
+    .conact-me {
+        justify-content: center;
+    }
+}

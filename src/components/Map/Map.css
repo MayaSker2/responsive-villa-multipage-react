@@ -1,0 +1,12 @@
+.map-section{
+    
+}
+.map-section .map{
+    border-radius: 30px;
+    width: 100%;
+}
+@media (max-width: 576px) {
+    .map-section .map{
+        height: 400px;
+    }
+}

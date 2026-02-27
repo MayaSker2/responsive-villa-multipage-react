@@ -1,0 +1,53 @@
+.Pagintion{
+    padding: 50px 15px;
+}
+
+/* Buttons */
+.Pagintion .buttons{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* Cards container */
+.Pagintion .card{
+    margin-top: 30px;
+}
+
+/* Pagination */
+.pagination {
+    --bs-pagination-padding-x: 1.2rem !important;
+    --bs-pagination-padding-y: 0.705rem !important;
+    --bs-pagination-font-size: 1.1rem !important;
+    font-weight: 700 !important;
+    --bs-pagination-color: #fff !important;
+    --bs-pagination-bg: #000 !important;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-left: 0;
+    gap: 0.5rem;
+}
+
+.page-item .page-link {
+    border-radius: 50% !important;
+}
+
+/* active pagination */
+.active>.page-link, .page-link.active {
+    background-color: #f35525 !important;
+    border-color: #f35525 !important;
+    color: #fff !important;
+}
+
+/* Mobile responsive tweaks */
+@media (max-width: 576px) {
+    .Pagintion {
+        padding: 30px 10px;
+    }
+
+    .buttons {
+        gap: 8px;
+    }
+}

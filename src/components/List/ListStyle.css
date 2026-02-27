@@ -1,0 +1,71 @@
+/* ListStyle.css */
+.lists {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 30px 40px;
+}
+
+.lists ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 30px; 
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.lists ul li {
+    width: 100%;
+    display: flex;
+    gap: 30px; 
+    align-items: flex-start;
+    justify-content: start;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.lists ul li h4 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+.lists ul li h4 span {
+    font-size: 15px;
+    color: #aaa;
+    font-weight: 400;
+}
+
+/* Icon */
+.lists .icon {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+/* Responsive */
+@media (max-width: 767px) {
+    .lists {
+        padding: 5px 0;
+    }
+    .lists ul {
+        gap: 15px;
+    }
+    .lists .icon {
+        width: 35px;
+        height: 35px;
+    }
+    .lists ul li h4 {
+        font-size: 18px;
+    }
+    .lists ul li h4 span {
+        font-size: 12px;
+    }
+}

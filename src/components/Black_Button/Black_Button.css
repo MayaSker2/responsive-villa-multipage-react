@@ -1,0 +1,19 @@
+.black_button {
+    display: inline-block;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 500;
+    text-transform: capitalize;
+    background-color: #1e1e1e;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 5px;
+    transition: all 0.3s;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.black_button:hover {
+    background-color: #333333;
+    transform: translateY(-2px);
+}
